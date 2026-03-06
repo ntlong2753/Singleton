@@ -1,0 +1,16 @@
+    Đống code này đang minh hoạ mẫu thiết kế (Design Pattern) Singleton. Hiểu đơn giản:
+    Singleton = Trong toàn bộ chương trình chỉ được tồn tại đúng 1 object của class đó.
+
+    Ở ví dụ này:
+    👉 Chỉ có 1 cuốn sách duy nhất trong thư viện
+    👉 Ai mượn trước thì người khác không mượn được.
+
+    Ý tưởng của ví dụ này
+        Giả sử có:
+        1 cuốn sách duy nhất
+        2 người muốn mượn
+        Luật:
+        Người 1 mượn → OK
+        Người 2 mượn → Không được vì sách đang bị mượn
+        Người 1 trả → Người 2 mới mượn được
+        Đây chính là cách hoạt động của Singleton.
